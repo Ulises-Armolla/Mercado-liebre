@@ -1,0 +1,108 @@
+/* Banner*/
+.home .banner {
+    width: 100%;
+    display: none;
+}
+
+/* Main */
+main.home {
+    width: 100%;
+}
+
+/* section */
+main.home section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.home .section-title {
+    margin: 25px 0px;
+    text-align: center;
+    color: var(--dark-grey);
+    font-size: var(--title);
+}
+
+.home .card {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.home .card .card-content {
+    border-top: 1px solid var(--light-grey);
+    padding: 15px;
+    position: relative;
+}
+
+.home .card .card-content .icon-truck {
+    border: 1px solid var(--green);
+    border-radius: 50%;
+    width: -moz-fit-content;
+    padding: 5px;
+    
+}
+
+.home .card .card-content .icon-truck i {
+    color: var(--green);
+    font-size: 16px;
+}
+
+.home .card .card-content .product-info {
+    padding-top: 5px;
+}
+
+.home .card .card-content .product-info p:nth-child(1) {
+    flex-grow: 0.3;
+}
+
+.home .card .card-content .product-info p:nth-child(2) {
+    color: var(--green);
+    font-size: 14px;
+    flex-grow: 0.7;
+}
+
+.home .card .card-content .product-name {
+    display: none;
+    color: var(--dark-grey);
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+/* Media queries tablet */
+@media (min-width: 361px) {
+    .home .card .card-content .product-name {
+        display: block;
+    }
+
+    .home .section {
+        text-align: center;
+    }
+
+    .home .card {
+        display: inline-block;
+        width: 46%;
+        margin: 10px 5px;
+    }
+}
+
+/* Desktop*/
+@media (min-width: 769px) {
+    .burguer-menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .home .card {
+        box-shadow: 15px 0px 15px rgb(100, 100, 100);
+    }
+
+    .home .banner {
+        display: block;
+    }
+
+    .home .card {
+        width: 23%;
+    }
+}

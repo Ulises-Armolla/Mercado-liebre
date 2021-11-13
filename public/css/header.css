@@ -1,0 +1,67 @@
+/*header*/
+header {
+    background-color: var(--yellow);
+    font-size: var(--paragraph);
+    padding-bottom: 10px;
+}
+
+header .top-list {
+    display: none;
+}
+
+header .burger-menu {
+    display: block;
+    background-color: var(--light-blue);
+    color: white;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+header .burger-menu i {
+    font-size: 18px;
+    margin-top: -3px;
+}
+
+header .logo {
+    width: 130px;
+    margin-left: 25px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+/*etiqueta buscar productos*/
+header .search-bar {display: inline-block; margin-left: 15px;}
+
+header .quota {text-align: center; margin: 10px 0 20px;}
+
+
+@media (min-width:361px) {
+    
+}
+
+@media (min-width:769px) {
+
+    nav {
+        display: block;
+    }
+    
+    header .logo {
+        width: 150px;
+    }
+
+    header {
+        font-size: var(--prices);
+    }
+
+    header .burger-menu {
+        display: none;
+    }
+
+    header .top-list {
+        display: block;
+    }
+}

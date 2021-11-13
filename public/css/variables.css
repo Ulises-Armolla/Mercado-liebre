@@ -1,0 +1,18 @@
+/*colors*/
+:root {
+    --yellow: #eac926;
+    --blue: #03264c;
+    --light-blue: #1259c3;
+    --dark-grey: #666;
+    --light-grey: #ebebeb;
+    --green: #39b54a;
+
+/*font*/    
+    --font-roboto:"Roboto", sans-serif;
+
+/*font-size*/
+    --paragraph: 12px;
+    --title: 24px;
+    --prices: 18px;
+    --discounts-descriptions: 16px;
+}
